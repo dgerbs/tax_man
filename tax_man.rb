@@ -1,4 +1,4 @@
-# Calculate a tax rate of 22% for each citizen
+#!/usr/bin/env ruby
 
 records = [
   {
@@ -28,11 +28,9 @@ records = [
 
 # iterate through the records
 
-# output tax owed
 records.each do |name, tax|
 
   end
- 
-#loop through the list of records
-  # calculate the effective tax for a specific citizen
-  # output the citizen's tax liability
+# Calculate a tax rate of 22% for each citizen
+
+# Output tax owed
