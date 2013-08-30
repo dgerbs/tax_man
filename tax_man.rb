@@ -28,8 +28,12 @@ records = [
 
 # iterate through the records
 
-records.each do |name, tax|
+TAX_RATE = 0.22
 
+records.each do |record|
+  efffective_tax = TAX_RATE * record[:annual_income]
+
+  puts "#{ [record:[:first_name, :last_name]].join(" ")}"
   end
 # Calculate a tax rate of 22% for each citizen
 
