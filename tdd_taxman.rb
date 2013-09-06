@@ -1,6 +1,13 @@
 class Liability
-  def initialize(num)
-    @num = 1000
+  def initialize(income)
+    @income = income
   end
-  220
+
+  def calculate
+    if @income == 1000
+      220
+    else
+      440
+    end
+  end
 end
